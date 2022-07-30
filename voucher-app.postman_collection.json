@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "1fdea6f0-9564-441f-bf9f-e6d0eab96703",
+		"name": "voucher-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4181849"
+	},
+	"item": [
+		{
+			"name": "check-user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/user/fadhiil@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"fadhiil@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-all-voucher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/voucher",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"voucher"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
